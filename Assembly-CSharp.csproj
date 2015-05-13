@@ -46,6 +46,36 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Background.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\DestroyArea.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Emitter.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Manager.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\ObjectPool.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Player.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\ShipResetScript.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Spaceship.cs" />
+     <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\WaveScript.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\ProjectileDragging.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\ProjectileFollow.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\Resetter.cs" />
+     <Compile Include="Assets\Example Games\Angry Birds Style\Scripts\TargetDamage.cs" />
+     <Compile Include="Assets\Example Games\Flappy Bird Style\Scripts\BirdScript.cs" />
+     <Compile Include="Assets\Example Games\Flappy Bird Style\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Example Games\Flappy Bird Style\Scripts\ColumnScript.cs" />
+     <Compile Include="Assets\Example Games\Flappy Bird Style\Scripts\ColumnSpawnScript.cs" />
+     <Compile Include="Assets\Example Games\Flappy Bird Style\Scripts\GameControlScript.cs" />
+     <Compile Include="Assets\Example Games\Flappy Bird Style\Scripts\ScrollScript.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_DestroyOnContact.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_Explode.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_GameController.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_HatController.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_Restart.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_Score.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_SetParticleSortingLayer.cs" />
+     <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_StartGame.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\Platformer2DUserControl.cs" />
@@ -203,6 +233,7 @@
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\SamplePositions.shader" />
+     <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\VignetteShader.shader" />
@@ -245,9 +276,11 @@
      <None Include="Assets\SampleAssets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GlobalFog.shader" />
      <None Include="Assets\SampleAssets\Effects\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\SampleAssets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Example Games\Angry Birds Style\_ReadMe.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ContrastStretch\Luminance.shader" />
      <None Include="Assets\SampleAssets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionSelective.shader" />
@@ -260,9 +293,12 @@
      <None Include="Assets\SampleAssets\Environment\Water (Pro Only)\Shaders\FXWaterPro.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Example Games\2D Scrolling Shooter\Fonts\PressStart2P-Regular\OFL.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Example Games\Hat Trick - The Catch Game\_ReadMe.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Example Games\Hat Trick - The Catch Game\Fonts\LuckiestGuy\LICENSE.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionEffect.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GrayscaleEffect.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\SepiaToneEffect.shader" />
@@ -277,6 +313,7 @@
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\Tonemapper.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Example Games\2D Scrolling Shooter\_ReadMe.txt" />
      <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
@@ -298,6 +335,7 @@
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\ColorFilter.shader" />
+     <None Include="Assets\Fonts\PressStart2P-Regular\OFL.txt" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
